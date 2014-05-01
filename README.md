@@ -7,6 +7,7 @@ A set of scripts and templates for monitoring Tomcat with Zabbix. This has been 
 
 - install Tomcat template in Zabbix
 - create a host per monitored JVM and apply above template
+- define a macro with the same name as the macro in the template for the JMX port. Use the port that you specify in Tomcat.
 
 ## steps per host
 
